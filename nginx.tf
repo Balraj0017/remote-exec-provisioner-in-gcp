@@ -47,7 +47,7 @@ resource "google_compute_firewall" "rules" {
   project     = "knurons-iot"
   name        = "my-firewall-rule"
   network     = "default"
-  description = "Creates firewall rule targeting instances"
+  description = "Create firewall rule targeting instances"
 
   allow {
     protocol  = "tcp"
